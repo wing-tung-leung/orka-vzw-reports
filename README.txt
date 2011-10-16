@@ -23,7 +23,9 @@ cat prepare.out | ./filter_income.py > income.csv
 
 Om velden in dezelfde volgorde als Excel te brengen:
 
-cat income.csv | awk -F\; '{print $1";"$3";"$2";"$4}' > income2.csv
+cat income.csv | awk -F\; '{print $1";"$2";"$3";"$4}' > income2.csv
+
+Openenen in Office met ; als separator, en eerste kolom als datum (DMY).
 
 Opmerkingen
 -----------
