@@ -15,6 +15,11 @@ Filter met "filter_expense.py".
 
 cat prepare.out | ./filter_expense.py > expenses.csv
 
+OpenOffice import:
+ - Language: English (USA)
+ - semicolon separator
+ - first column: Date (DMY)
+
 Inkomsten
 ---------
 Filter met "filter_income.py".
