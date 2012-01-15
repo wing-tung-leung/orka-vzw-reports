@@ -11,7 +11,7 @@ def getDescription(origin, comment):
 		return origin
 	elif origin == '' and comment.lower().find('kaarter') > -1:
 		return 'Kaarters'
-	elif origin == 'Donderdagspelers' or comment.lower().find('seniorenpingpong') > -1:
+	elif origin == 'Donderdagspelers' or comment.lower().find('seniorenpingpong') > -1 or comment.lower().find('donderdagsenior') > -1:
 		return 'Donderdagspelers'
 	elif origin == 'IOCA':
 		return origin

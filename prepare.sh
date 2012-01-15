@@ -30,5 +30,6 @@ cat "$INPUT" | sed -e '1,13d' |  # headers weggooien
 	sed 's/BECKERS - SLABBINCK/Hugo:/1' |
 	sed 's/Oelegemse Drankendiscount/Drankendiscount/1' |
 	sed 's/Electrabel N.V./Electrabel/1' |
+	sed 's/Electrabel Customer Solutions/Electrabel/1' |
 	tac
 
