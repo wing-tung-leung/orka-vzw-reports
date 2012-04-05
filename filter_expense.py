@@ -14,8 +14,15 @@ def getDescription(destination, comment):
 	else:
 		return destination;
 
+lineNumber = 0
 for line in sys.stdin.readlines():
+	lineNumber = lineNumber + 1
 	fields = line.split(';')
+	if line.strip() == "":
+		continue
+	if len(fields) != 5:
+		sys.stderr.write('Field count = %i on line %i' % (len(fields), lineNumber))
+		exit(1)
 	amount = fields[4]
 	if amount[0] == '-':
 		date = fields[0]
