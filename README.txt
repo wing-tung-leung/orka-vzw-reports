@@ -20,6 +20,9 @@ OpenOffice import:
  - semicolon separator
  - first column: Date (DMY)
 
+LibreOffice Calc:
+ - menu [Insert] / [Sheet from file ..]
+
 Inkomsten
 ---------
 Filter met "filter_income.py".
